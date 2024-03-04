@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    height: 180px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(78, 160, 255);
+    
+}
+
+.logocontainer{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/pattern.png);
+}
+
+div.logocontainer>img{
+    height: 40%;
+    width: 40%;
+    margin: 90px 0 0 0;
+}
