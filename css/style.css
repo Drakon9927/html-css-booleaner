@@ -45,8 +45,8 @@ h1{
     margin-right: 10px;
 }
 
-main>section:first-child{
-    max-width: 90%;
+.contenitore>section:first-child{
+    max-width: 80%;
 }
 
 div.sottotitolo{
