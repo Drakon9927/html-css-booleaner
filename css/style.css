@@ -4,7 +4,7 @@
 
 body{
     margin: 0 auto;
-    padding: 0;
+    padding: 0
 }
 
 header{
@@ -23,6 +23,64 @@ header{
 
 div.logocontainer>img{
     height: 40%;
-    width: 40%;
+    width: 30%;
     margin: 90px 0 0 0;
+}
+
+/* 
+Dal titolo in poi */
+
+.contenitore{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#backspace{
+    margin-right: 10px;
+}
+
+main>section:first-child{
+    max-width: 90%;
+}
+
+div.sottotitolo{
+    font-size: 30px;
+}
+
+div.sottotitolo , .datasottotitolo{
+    color: grey;
+}
+
+span#azzurro{
+    color:rgb(0, 170, 255);
+}
+
+/* 2 immagini */
+
+section#dueimmagini{
+    margin-top: 20px;
+}
+
+div.imgbox{
+    display: inline-block;
+}
+
+.imgbox{
+    border: 2px solid black;
+    height: 500px;
+    width: 45%;
+    background-size: cover;
+}
+
+.uno{
+    background-image: url(../img/tim-1.jpg);
+}
+
+.due{
+    background-image: url(../img/tim-2.jpg);
 }
