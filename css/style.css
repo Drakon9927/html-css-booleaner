@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    padding: 0;
 }
 
 body{
@@ -83,4 +84,42 @@ div.imgbox{
 
 .due{
     background-image: url(../img/tim-2.jpg);
+}
+
+/* Testo evidenziato e ul */
+
+main{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#evidenziato{
+    background-color: yellow;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+/* Tabella */
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+tr:first-child{
+    background-color:#20A9E5;
+    color: white;
+}
+
+
+
+.spostacolonna{
+    width: 40%;
+    text-align: center;
+}
+
+.backgroundchiaro{
+    background-color: #B1E5F2;
 }
