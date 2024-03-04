@@ -100,29 +100,26 @@ ul{
     margin-left: 20px;
 }
 
-/* Tabella */
+/* Grid */
 
-table{
-    width: 100%;
-    border-spacing: 0;
-}
+.grid-container {
+    display: grid;  
+  }
+  
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    align-items: center;
+  }
 
-tr:first-child{
-    background-color:#20A9E5;
+  div.grid-container>div.grid-row:first-child{
     color: white;
-}
+    background-color: #20A9E5;
+  }
 
-
-
-.spostacolonna{
-    width: 40%;
-    text-align: center;
-}
-
-.backgroundchiaro{
+  .azurino{
     background-color: #B1E5F2;
-}
-
+  }
 /* Scritta con 2 immagini */
 
 footer>h3:first-child{
