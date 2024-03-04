@@ -123,3 +123,32 @@ tr:first-child{
 .backgroundchiaro{
     background-color: #B1E5F2;
 }
+
+/* Scritta con 2 immagini */
+
+footer>h3:first-child{
+    color: grey;
+}
+
+.footerbox{
+    border: 1px solid black;
+    display: block;
+    height: 250px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.tre{
+    background-image: url(../img/monitor.jpg);
+    color: white;  
+}
+
+.quattro{
+    background-image: url(../img/graph.jpg);
+    color: white;
+}
+
+div.footerbox>h2{
+    margin: 10px 0 0 10px;
+}
+
